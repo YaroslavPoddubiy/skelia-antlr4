@@ -1,0 +1,53 @@
+val num1 = 10 + 3;
+var num2 = 2 ^ -2;
+num2 = true;
+println(num2);
+num2 = -num2 * 2 + 4;
+val num3 = 5.01E4;
+var num4 = .56E6;
+val num5 = 5.;
+val num6 = num5;
+val flag: Boolean = true;
+var userInput = readline();
+
+println(2^2^3);
+println(num2);
+println(5);
+
+println(true > false);
+
+if (1 > 2) {
+    println(true);
+}
+
+if (userInput > num1 && num1 > userInput) {
+    println(1);
+}
+elif (userInput == num1 || userInput == num1) {
+    println(2);
+    if (userInput > num1 && num1 > userInput) {
+        println(1);
+    }
+    else {
+        println(3);
+    }
+    println(4);
+}
+
+elif (userInput < num1) {
+    println(3);
+}
+
+val result1: Int = num1 + num2;
+
+val result3: Int = num1 * num2;
+val result4: Double = num1 / num2;
+
+println((1*7) > 2^3);
+println(true > false);
+println(false);
+
+println(result1);
+
+println(result3);
+println(result4);

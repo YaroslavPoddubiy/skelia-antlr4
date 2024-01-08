@@ -1,0 +1,54 @@
+// Variable declarations
+val num1 = 10;
+var num2 = 5.42;
+val num3 = 5.01E4;
+var num4 = .56E6;
+val num5 = 5.;
+val num6 = num5;
+val flag: Boolean = true;
+var userInput: Int = readline();
+num4 = readline();
+
+println((true > false));
+
+// If-elif-else statement
+if (userInput > num1 && num1 > userInput) {
+   println(1);
+}
+elif (userInput == num1 || userInput == num1) {
+   println(2);
+   if (userInput > num1 && num1 > userInput) {
+       println(1);
+       for (i <- 1 to 10) {
+           println(i);
+       }
+   }
+}
+
+elif (userInput < num1) {
+   println(3);
+}
+
+// For loop with a range expression and by keyword
+for (i <- 1 to 5) {
+    for (j <- 0 until 5 by 3 if (j != 0); if (i^j < 9)){
+        println(i);
+    }
+}
+
+// Arithmetic operations
+val result1: Int = num1 + num2;
+val result2: Int = num1 - num2;
+val result3: Int = num1 * num2;
+val result4: Double = num1 / num2;
+
+// Boolean operations
+println((1*7) > 2^3);
+println(true > false);
+println(false);
+
+// Output
+println(result1);
+println(result2);
+println(result3);
+println(result4);
